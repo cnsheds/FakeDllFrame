@@ -27,6 +27,9 @@
     <ClInclude Include="FakeExport.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Patch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -38,5 +41,16 @@
     <ClCompile Include="dllmain.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Patch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FakeExport.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="sample.asm">
+      <Filter>源文件</Filter>
+    </MASM>
   </ItemGroup>
 </Project>
